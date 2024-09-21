@@ -12,4 +12,11 @@ export default {
     Update: '/update',
     Delete: '/delete/:id',
   },
+  Examples: {
+    Base: '/examples',
+    Get: '/example/all',
+    Add: '/example/add',
+    Update: '/example/update',
+    Delete: '/example/delete/:id',
+  },
 } as const;
